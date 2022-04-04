@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="50" viewBox="0 0 270 50">
+  <g id="Group_9" data-name="Group 9" transform="translate(30.372 0.48)">
+    <g id="Rectangle_104" data-name="Rectangle 104" transform="translate(-30.372 -0.48)" fill="none" stroke="#f2f2f2" stroke-width="1">
+      <rect width="270" height="50" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="269" height="49" rx="9.5" fill="none"/>
+    </g>
+    <text id="App_Store" data-name="App Store" transform="translate(52 8.52)" fill="#f2f2f2" font-size="28" font-family="Perpetua-Bold, Perpetua" font-weight="700"><tspan x="0" y="23">App Store</tspan></text>
+    <g id="Icon_ionic-logo-apple" data-name="Icon ionic-logo-apple" transform="translate(3 7.52)">
+      <path id="Path_8" data-name="Path 8" d="M32.737,10.821c-3.675,0-5.228,1.608-7.787,1.608-2.625,0-4.626-1.6-7.809-1.6a10.857,10.857,0,0,0-8.552,4.718c-2.964,4.192-2.461,12.088,2.34,18.814,1.717,2.408,4.014,5.108,7.021,5.137H18c2.614,0,3.39-1.569,6.989-1.589h.055c3.543,0,4.254,1.579,6.857,1.579h.055c3.008-.029,5.425-3.022,7.142-5.42a25.761,25.761,0,0,0,2.647-4.543c-6.945-2.418-8.06-11.444-1.192-14.9a10.684,10.684,0,0,0-7.82-3.8Z" transform="translate(-6.748 -4.5)" fill="#f2f2f2"/>
+      <path id="Path_9" data-name="Path 9" d="M22.936,4.5a6.149,6.149,0,0,0-4.008,2.222A5.593,5.593,0,0,0,17.62,11h.112A5.22,5.22,0,0,0,21.656,8.88a5.989,5.989,0,0,0,1.28-4.38Z" transform="translate(1.165 -4.5)" fill="#f2f2f2"/>
+    </g>
+  </g>
+</svg>

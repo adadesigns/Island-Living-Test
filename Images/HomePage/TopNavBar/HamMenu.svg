@@ -1,0 +1,9 @@
+<svg id="HamMenu" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Rectangle_94" data-name="Rectangle 94" fill="#f2f2f2" stroke="#017373" stroke-width="1">
+    <rect width="60" height="60" rx="30" stroke="none"/>
+    <rect x="0.5" y="0.5" width="79" height="79" rx="29.5" fill="none"/>
+  </g>
+  <line id="Line_37" data-name="Line 37" x2="57" transform="translate(11.5 17.5)" fill="none" stroke="#017373" stroke-width="3"/>
+  <line id="Line_38" data-name="Line 38" x2="57" transform="translate(11.5 40)" fill="none" stroke="#017373" stroke-width="3"/>
+  <line id="Line_39" data-name="Line 39" x2="57" transform="translate(11.5 62.5)" fill="none" stroke="#017373" stroke-width="3"/>
+</svg>

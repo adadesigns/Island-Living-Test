@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/bootstrap.css" >
+    <link rel="stylesheet" href="./style/dist/sassstyle.css">
+    <title>Coursera Google UX Design</title>
+</head>
+
+<body>
+ <!--
+     This is where the navigation bar starts
+ -->
+    <header>
+        <div class="container-fluid no-padding">
+        <div class="row justify-content-between p-1">
+        
+            <div class="col-4 d-flex align-items-center">
+                <a href="#" class="Menu">
+                <img class="img-fluid" 
+                 src="./Images/HomePage/TopNavBar/HamMenu.svg"  
+                 alt="Menu">
+            </a>
+            <a href="#" class="Logo">
+                <img class="img-fluid"  
+                src="/Images/HomePage/TopNavBar/Island Living.svg" 
+                 alt="Island Living">
+            </a>
+           
+            </div>
+        <div class="col-6  d-flex align-items-center justify-content-evenly">
+                <a href="#" class="Fav">
+                <img class="img-fluid"  
+                 src="/Images/HomePage/TopNavBar/favorite_black_24dp.svg" 
+                 alt="Favorite">
+            </a>
+            <a href="#" class="Read">
+                <img class="img-fluid" 
+                src="/Images/HomePage/TopNavBar/volume_up_black_24dp.svg" 
+                alt="Read">
+            </a>
+            <a href="#" class="En">
+               <button type="button" id="Language" class="btn btn-primary">En</button>
+            </a>
+            <a href="#" class="Call">
+                <button type="button" id="Language" class="btn btn-primary">Call Us</button>
+            </a>
+            <a href="#" class="Avatar">
+                <img class="img-fluid pb-1 pt-1"  
+                 src="/Images/HomePage/TopNavBar/annie-spratt-b0XSjnITSoA-unsplash.svg" 
+                 alt="Avatar">
+            </a>
+            <a href="#" class="SignIn">
+                <button type="button" id="Language" class="btn btn-primary">Sign in/Sign up</button>
+            </a>
+     
+        </div>
+    </div>
+   
+    </div>
+    </header>
+  <!--
+     This is where the hero image and search bar are placed
+ -->
+ <main>
+    <div class="herobanner">
+
+        <div class="container-md">
+
+            <div class="row col-12 d-flex justify-content-center align-items-center" style="height:90vh;">
+
+                <div class="col d-flex justify-content-center align-items-center ">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                          <form class="d-flex">
+                            <button class="btn btn-search" type="submit">
+                             <img class="img-fluid"
+                                  src="/Images/HeroImage/Path 6.svg"
+                                  alt="Search">
+                            </button>
+                            <input 
+                                class="form-control me-2" 
+                                type="search" 
+                                placeholder="Search" 
+                                aria-label="Search">
+                          </form>
+                        </div>
+                      </nav>
+                    
+                </div>
+                
+            </div>
+            <div class="row col-4 justify-content-end">
+                <div class="col">
+                    <p class="">Remote work? Remote living!</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+   
+    <div class="row">
+        <div class="col justify-content-start p-3 m-1">
+        <div class="h2">
+
+        <p>Pick from our best selling locations</p>
+        
+         </div>
+    </div>
+    </div>
+
+    <!-- 
+        Carousel of images top of page
+    -->
+
+    <div id="carouselExampleCaptions" 
+        class="carousel slide carousel-fade align-content-center p-3" 
+        data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+        
+           <img src="/Images/HomePage/FirstCarousel/Bahamas romello-williams-_ftxPl9sAk0-unsplash.jpg" 
+                class="d-block w-100" 
+                alt="Bahamas"> 
+            <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="text-decoration-none"> 
+                    <h5>Bahamas</h5>
+                </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/HomePage/FirstCarousel/Bali 5guillaume-marques-bnMPFPuSCI0-unsplash.jpg" 
+                class="d-block w-100" 
+                alt="Bali">
+            <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="text-decoration-none"> <h5>Bali</h5>
+                    </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/HomePage/FirstCarousel/Seychells christian-cacciamani-jPmurJKSL_0-unsplash.jpg" 
+                class="d-block w-100" 
+                alt="Seychells">
+            <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="text-decoration-none">   <h5>Seychells</h5>
+                    </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/HomePage/FirstCarousel/Hawaii braden-jarvis-prSogOoFmkw-unsplash.jpg" 
+                class="d-block w-100" 
+                alt="Hawaii">
+            <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="text-decoration-none"> <h5>Hawaii</h5>
+                    </a>
+       
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="/Images/HomePage/FirstCarousel/Turks and caicos adam-gonzales--nRa-Tdh2F0-unsplash.jpg"
+                 class="d-block w-100 "
+                 alt="Turks and caicos">
+            <div class="carousel-caption d-none d-md-block ">
+                <a href="#" class="text-decoration-none">  <h5>Turks and caicos</h5>
+                    </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+  <!--
+        First list of cards Links
+    -->
+      <div class="row">
+        <div class="col justify-content-start p-3 m-3">
+        <div class="h2">
+
+        <p>Top picks for Bahamas</p>
+        <a href="#">
+        <h4>View all X listings</h4>
+
+        </a>
+        
+         </div>
+     </div>
+        </div>
+    <!--
+        First list of cards
+    -->
+    <div class="containers">
+        <div class="row g-3 p-2 m-2">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="FirstListFirstCard" 
+                    class="card border-primary">
+               <a href="#"> 
+                   <img src="/Images/HomePage/FirstList/1-pexels-esrageziyor-7560125.jpg"
+                   class="card-img-top" 
+                   alt="FirstListFirstCard">
+                </a>
+                <div class="card-body d-flex justify-content-center">
+                    <h5 class="card-title">
+                        685.000 $
+                    </h5>
+                    </div>
+                    <div class="card-title d-flex justify-content-center">
+                    <p class="card-text">
+                        3 bed, 2.5 baths, 2.500 sqft
+                    </p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="FirstListSecondCard" 
+                    class="card border-primary">
+                <a href="#"> 
+                    <img src="/Images/HomePage/FirstList/2-pexels-keegan-checks-9860910.jpg" 
+                            class="card-img-top" 
+                            alt="FirstListSecondCard">
+                        </a>
+                <div class="card-body d-flex justify-content-center">
+                    <h5 class="card-title border-success">
+                        785.000 $
+                    </h5>
+                    </div>
+                    <div class="card-title">
+                    <p class="card-text d-flex justify-content-center">
+                        4 bed, 2 baths, 2.000 sqft
+                    </p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="FirstListThirdCard" 
+                    class="card border-primary">
+                <a href="#"> 
+                    <img src="/Images/HomePage/FirstList/3-sebastian-staines-6_8nhHo4fDc-unsplash.jpg"
+                     class="card-img-top" 
+                     alt="FirstListThirdCard">
+                    </a>
+                <div class="card-body d-flex justify-content-center ">
+                  <h5 class="card-title ">
+                      585.000 $
+                    </h5>
+                  </div>
+                  <div class="card-title d-flex justify-content-center">
+                  <p class="card-text">
+                      3 bed, 2 baths, 2.000 sqft
+                    </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+    <!--
+        Second list of cards - Links
+    -->
+    <div class="containers">
+    <div class="row">
+        <div class="col justify-content-start p-3 m-3">
+        <div class="h2">
+
+        <p>Top picks for Hawaii</p>
+        <a href="#">
+        <h4>View all X listings</h4>
+        </a>
+        
+         </div>
+     </div>
+        </div>
+   <!--
+        Second list of cards
+    -->
+    <div class="row g-3 p-2 m-2">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div id="SecondListFirstCard" 
+                class="card border-primary">
+           <a href="#"> 
+               <img src="/Images/HomePage/SecondList/1 allison-huang-_u8KhAZRGHs-unsplash.jpg"
+               class="card-img-top" 
+               alt="SecondListFirstCard">
+            </a>
+            <div class="card-body d-flex justify-content-center">
+                <h5 class="card-title">
+                    685.000 $
+                </h5>
+                </div>
+                <div class="card-title d-flex justify-content-center">
+                <p class="card-text">
+                    3 bed, 2.5 baths, 2.500 sqft
+                </p>
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div id="SecondListSecondCard" 
+                class="card border-primary">
+            <a href="#"> 
+                <img src="/Images/HomePage/SecondList/2 katie-manning-oSIuIEZZ6v0-unsplash.jpg" 
+                        class="card-img-top" 
+                        alt="SecondListSecondCard">
+                    </a>
+            <div class="card-body d-flex justify-content-center">
+                <h5 class="card-title border-success">
+                    785.000 $
+                </h5>
+                </div>
+                <div class="card-title">
+                <p class="card-text d-flex justify-content-center">
+                    4 bed, 2 baths, 2.000 sqft
+                </p>
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div id="SecondListThirdCard" 
+                class="card border-primary">
+            <a href="#"> 
+                <img src="/Images/HomePage/SecondList/3 stefano-bucciarelli-Oo_GSNAtF20-unsplash.jpg"
+                 class="card-img-top" 
+                 alt="SecondListThirdCard">
+                </a>
+            <div class="card-body d-flex justify-content-center ">
+              <h5 class="card-title ">
+                  585.000 $
+                </h5>
+              </div>
+              <div class="card-title d-flex justify-content-center">
+              <p class="card-text">
+                  3 bed, 2 baths, 2.000 sqft
+                </p>
+            </div>
+          </div>
+        </div>
+        </div>  
+      </div>
+    </main>
+<!--
+
+    This is where the footer starts
+
+-->
+<div class="container-fluid footer mt-5 pt-3 pb-3">
+    <div class="row justify-content-between align-items-top m-3">
+    
+        <div class="col-5">
+            <p>Download the app</p>
+            <div class="row mb-2">
+               
+                <div class="col">
+                    <a href="#">
+                        <img src="/Images/HomePage/Footer/Google Play.svg">
+                    </a>
+                </div>
+         </div>
+         <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <img src="/Images/HomePage/Footer/App Store.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <p>Contact form</p>
+            <form>
+                <input 
+                    class="form-control mb-2" 
+                    type="text" 
+                    placeholder="Name" 
+                    aria-label="Search">
+                <input 
+                    class="form-control mb-2" 
+                    type="email" 
+                    placeholder="Email" 
+                    aria-label="Search">
+                <textarea class="form-control mb-2" 
+                    id="textareaContactForm" 
+                    placeholder="Message">Message...</textarea>
+
+                    <button class="btn btn-contact-form mb-2" 
+                    type="submit">
+                         Send
+                    </button>
+              </form>
+
+        
+        </div>
+    </div>
+    <div class="row justify-content-between align-items-top m-3 pt-4">
+        <div class="col-1 col-md-5 col-lg-5 d-flex justify-content-between align-content-between">
+            <button class="btn btn-contact-form mb-2 " 
+                        type="button">
+                    About us
+                </button>
+            <button class="btn btn-contact-form mb-2" 
+                        type="button">
+                      Contact us 
+            </button>
+            <button class="btn btn-contact-form mb-2" 
+                        type="button">
+                      Site map
+            </button>
+        </div>
+        <div id="Social" class="col-1 col-md-4 col-lg-4 justify-content-end">
+            <a href="#" ><img src="/Images/HomePage/Footer/Icon awesome-facebook.svg"></a>
+            <a href="#" ><img src="/Images/HomePage/Footer/Icon awesome-pinterest.svg"></a>
+            <a href="#" ><img src="/Images/HomePage/Footer/Icon awesome-twitter.svg"></a>
+            <a href="#" ><img src="/Images/HomePage/Footer/Icon simple-instagram.svg"></a>
+        </div>
+    </div>
+</div>
+<!--END-->
+
+
+    <script src="style/js/bootstrap.js" ></script>
+</body>
+</html>

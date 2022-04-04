@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="90" viewBox="0 0 175 106">
+  <defs>
+    <filter id="Island_Living" x="0" y="0" width="160" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Island_Living)">
+    <text id="Island_Living-2" data-name="Island Living" transform="translate(9 6)" fill="#f2f2f2" font-size="38" font-family="PerpetuaTitlingMT-Light, Perpetua Titling MT" font-weight="300"><tspan x="0" y="36">Island </tspan><tspan x="0" y="80">Living</tspan></text>
+  </g>
+</svg>
