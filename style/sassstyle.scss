@@ -7,6 +7,7 @@ body{
     text-decoration: none;
 }
 
+//Placeholder style
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: $dark-green;
@@ -26,6 +27,8 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+
+
 .h1{
     color:$dark-green;
     font-size: 28px;
@@ -43,6 +46,73 @@ header{
    a{text-decoration: none;
     color:$dark-green;} 
 }
+
+//Hamburger menu style
+
+li{
+    list-style: none;
+}
+
+.nav-menu{
+    position:fixed;
+    left:-100%;
+    top:90px;
+    gap:0;
+    flex-direction: column;
+    background-color:$dark-green;
+    width:100%;
+    text-align: center;
+    transition: 0.3s;
+    a{text-decoration: none;
+      color:$light-grey;}
+
+}
+
+.nav-item{
+    margin: 16px 0;
+}
+
+.nav-link{
+transition:0.7s ease;
+}
+
+
+.nav-menu.active{
+    left:0;
+}
+
+.hamburger{
+cursor:pointer;
+}
+
+.bar{
+    display:block;
+    width:25px;
+    height:3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: $light-grey;
+}
+
+.nav-link:hover{
+    color:aqua;
+    font-weight: bold;
+}
+
+.hamburger.active .bar:nth-child(2){
+    opacity:0;
+}
+.hamburger.active .bar:nth-child(1){
+   transform:translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+    transform:translateY(-8px) rotate(-45deg);
+}
+
+
+
+//Buttons
 
 .btn-primary{
 
