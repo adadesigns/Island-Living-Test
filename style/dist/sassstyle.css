@@ -193,12 +193,18 @@ h5 {
   color: #017373;
   font-weight: bold;
   font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-text {
   color: #017373;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card img {

@@ -201,35 +201,34 @@ font-size: 28px;
     top: 0;
     width: 100vw;
     height: 100vh;
-
   }
 
 h4{
     color:$dark-green;
     text-decoration-color:$dark-green;
-    
 }
 //Setting rounded corners, the same height, borders fonts and colors for Cards
 h5{
     color:white;
     font-weight: bold;
     font-size:28px;
-   
-   
 }
 .card-title{
     color:$dark-green;
     font-weight: bold;
     font-size:26px;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card-text{
     color:$dark-green;
     font-weight: bold;
-    font-size:26px;
-  
+    font-size:22px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .card{
 
     img{
@@ -240,7 +239,6 @@ h5{
         border-top-left-radius:30px;
         border-top-right-radius:30px;
     }
-  
 }
 
 .border-primary{
