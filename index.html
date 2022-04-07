@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style/css/bootstrap.css" >
     <link rel="stylesheet" href="./style/dist/sassstyle.css">
+    <script src="https://kit.fontawesome.com/de0ea7978b.js" crossorigin="anonymous"></script>
     <title>Coursera Google UX Design</title>
 </head>
 
@@ -381,7 +383,7 @@
 <div class="container-fluid footer mt-5 pt-3 pb-3">
     <div class="row justify-content-between align-items-top m-3">
     
-        <div class="col-5">
+        <div class="col-4">
             <p>Download the app</p>
             <div class="row mb-2">
                
@@ -399,46 +401,79 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-7">
             <p>Contact form</p>
-            <form action="https://formsubmit.co/672954e4ca212576ccaa13961d5c7e4d" method="POST">
+            <form class ="form-group" action="https://formsubmit.co/672954e4ca212576ccaa13961d5c7e4d" method="POST" onsubmit="event.preventDefault();validateForm()">
                <!-- Honeypot -->
                 <input 
                     type="text" 
                     name="_honey" 
                     style="display:none">
                 <!-- Disable captcha -->
-                <input type="hidden" name="_captcha" value="false">
+                <input 
+                    type="hidden" 
+                    name="_captcha" 
+                    value="false">
                 <!-- Next -->
 
-                <input type="hidden" name="_next" value="https://adadesigns.github.io/Island-Living-Test/succesContactForm.html"
+                <input 
+                    type="hidden" 
+                    name="_next" 
+                    value="https://adadesigns.github.io/Island-Living-Test/succesContactForm.html">
 
                 <!-- Form -->
-                <input 
-                    class="form-control mb-2" 
-                    type="text" 
-                    placeholder="Name" 
-                    aria-label="Search"
-                    id="Name"
-                    name="name">
-                <input 
-                    class="form-control mb-2" 
-                    type="Email" 
-                    placeholder="Email" 
-                    aria-label="Search"
-                    id="email"
-                    name="email">
-                <textarea class="form-control mb-2" 
-                    id="textareaContactForm" 
-                    placeholder="Message"
-                    id="Message"
-                    name="comments,&nbsp;questions">Message...</textarea>
-
-                    <button class="btn btn-contact-form mb-2" 
+                <div class="d-flex justify-content-start">
+                    <input 
+                        class="form-control mb-2" 
+                        type="text" 
+                        placeholder="Name" 
+                        aria-label="Search"
+                        id="Name"
+                        name="name"
+                        onkeyup="validateName()"
+                        required>
+                        <span 
+                        id="name-error">
+                        </span>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <input 
+                        class="form-control mb-2" 
+                        type="Email" 
+                        placeholder="Email" 
+                        aria-label="Search"
+                        id="Email"
+                        name="email"
+                        onkeyup="validateEmail()"
+                        required>
+                    <span 
+                        id="email-error">
+                    </span>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <textarea 
+                        class="form-control mb-2" 
+                        id="textareaContactForm" 
+                        placeholder="Message"
+                        name="comments,&nbsp;questions"
+                        rows="4"
+                        maxlength="100"
+                        onkeyup="validateMessage()"
+                        required></textarea>
+                    <span 
+                        id="message-error">
+                    </span>
+                </div>
+                <div>
+                <button class="btn btn-contact-form mb-2" 
                     type="submit"
-                    id="send">
-                         Send
-                    </button>
+                    id="send"
+                    >Send</button>
+                <span 
+                id="submit-error">
+                </span>
+            </div>
+
               </form>
 
         
