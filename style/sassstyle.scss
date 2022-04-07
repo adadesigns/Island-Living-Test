@@ -257,8 +257,18 @@ h5{
     color:$light-grey;
     font-size: 20px;
     font-weight: bold;
+   
 }
 
+.footerSmall{
+    background-color: $dark-green;
+    color:$light-grey;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
 .btn-contact-form{
