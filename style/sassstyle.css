@@ -74,6 +74,77 @@ header a {
   color: #017373;
 }
 
+li {
+  list-style: none;
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 90px;
+  gap: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #017373;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.nav-link {
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #F2F2F2;
+}
+
+.nav-link:hover {
+  color: aqua;
+  font-weight: bold;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(45deg);
+          transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+          transform: translateY(-8px) rotate(-45deg);
+}
+
 .btn-primary {
   background-color: #F2F2F2;
   color: #017373;
