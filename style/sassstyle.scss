@@ -166,18 +166,7 @@ font-size: 28px;
    
 }
 
-.form-control{
 
-    font-size: 24px;
-    color: $dark-green;
-    background-color: $light-grey;
-    margin-right: 3rem;
-    border-radius: 0.4rem;
-  //  width: 600px;
-    border-width: 1px;
-    border-color: $dark-green;
-
-}
 //Settings for Carousel
 #carouselExampleCaptions .carousel-item img {
 
@@ -249,7 +238,7 @@ h5{
 
 
 // Footer starts here
-
+//Footer for home page
 .footer{
 
     
@@ -259,7 +248,7 @@ h5{
     font-weight: bold;
    
 }
-
+//Footer for all other pages
 .footerSmall{
     background-color: $dark-green;
     color:$light-grey;
@@ -269,6 +258,33 @@ h5{
     bottom: 0;
     width: 100%;
 }
+
+
+//Form
+
+.form-control{
+
+    font-size: 24px;
+    color: $dark-green;
+    background-color: $light-grey;
+    border-radius: 0.4rem;
+    width: 600px;
+    border-width: 1px;
+    border-color: $dark-green;
+
+}
+
+
+.form-group i{
+    color: $light-grey;
+}
+
+
+.form-group span{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 
 
 .btn-contact-form{
@@ -282,6 +298,9 @@ h5{
     text-align: center;
     margin-bottom: 0;
 }
+
+
+//Links
 
 #Social{
     a{

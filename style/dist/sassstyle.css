@@ -151,16 +151,6 @@ li {
   background-color: #F2F2F2;
 }
 
-.form-control {
-  font-size: 24px;
-  color: #017373;
-  background-color: #F2F2F2;
-  margin-right: 3rem;
-  border-radius: 0.4rem;
-  border-width: 1px;
-  border-color: #017373;
-}
-
 #carouselExampleCaptions .carousel-item img {
   object-fit: cover;
   object-position: cover;
@@ -235,6 +225,25 @@ h5 {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.form-control {
+  font-size: 24px;
+  color: #017373;
+  background-color: #F2F2F2;
+  border-radius: 0.4rem;
+  width: 600px;
+  border-width: 1px;
+  border-color: #017373;
+}
+
+.form-group i {
+  color: #F2F2F2;
+}
+
+.form-group span {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .btn-contact-form {
