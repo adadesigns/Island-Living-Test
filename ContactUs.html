@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/bootstrap.css" >
+    <link rel="stylesheet" href="./style/dist/sassstyle.css">
+    <script src="https://kit.fontawesome.com/de0ea7978b.js" crossorigin="anonymous"></script>
+    <title>Coursera Google UX Design-Contact Us</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid no-padding">
+        <div class="row justify-content-between p-1">
+        
+            <div class="col-4 d-flex align-items-center">
+                <div class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            <a href="#" class="Logo">
+                <img class="img-fluid"  
+                src="./Images/HomePage/TopNavBar/Island Living.svg" 
+                 alt="Island Living">
+            </a>
+           
+            </div>
+        <div class="col-6  d-flex align-items-center justify-content-evenly">
+                <a href="#" class="Fav">
+                <img class="img-fluid"  
+                 src="./Images/HomePage/TopNavBar/favorite_black_24dp.svg" 
+                 alt="Favorite">
+            </a>
+            <a href="#" class="Read">
+                <img class="img-fluid" 
+                src="./Images/HomePage/TopNavBar/volume_up_black_24dp.svg" 
+                alt="Read">
+            </a>
+            <a href="#" class="En">
+               <button type="button" id="Language" class="btn btn-primary">En</button>
+            </a>
+            <a href="#" class="Call">
+                <button type="button" id="Language" class="btn btn-primary">Call Us</button>
+            </a>
+            <a href="#" class="Avatar">
+                <img class="img-fluid pb-1 pt-1"  
+                 src="./Images/HomePage/TopNavBar/annie-spratt-b0XSjnITSoA-unsplash.svg" 
+                 alt="Avatar">
+            </a>
+            <a href="#" class="SignIn">
+                <button type="button" id="Language" class="btn btn-primary">Sign in/Sign up</button>
+            </a>
+     
+        </div>
+    </div>
+   
+    </div>
+    </header>
+
+ <main>
+
+ 
+        <div class="container-fluid footer mt-5 pt-3 pb-3">
+           
+            <div class="row justify-content-between m-3">
+        
+                <div class="col-7">
+                    <p>Contact form</p>
+                    <form class ="form-group" action="https://formsubmit.co/672954e4ca212576ccaa13961d5c7e4d" method="POST" onsubmit="validateForm()">
+                       <!-- Honeypot -->
+                        <input 
+                            type="text" 
+                            name="_honey" 
+                            style="display:none">
+                        <!-- Disable captcha -->
+                        <input 
+                            type="hidden" 
+                            name="_captcha" 
+                            value="false">
+                        <!-- Next -->
+                        <input 
+                            type="hidden" 
+                            name="_next" 
+                            value="https://adadesigns.github.io/Island-Living-Test/succesContactForm.html">
+        
+                        <!-- Form -->
+                        <div class="d-flex justify-content-start">
+                            <input 
+                                class="form-control mb-2" 
+                                type="text" 
+                                placeholder="Name" 
+                                aria-label="Search"
+                                id="Name"
+                                name="name"
+                                onkeyup="validateName()"
+                                required>
+                                <span 
+                                id="name-error">
+                                </span>
+                        </div>
+                        <div class="d-flex justify-content-start">
+                            <input 
+                                class="form-control mb-2" 
+                                type="Email" 
+                                placeholder="Email" 
+                                aria-label="Search"
+                                id="Email"
+                                name="email"
+                                onkeyup="validateEmail()"
+                                required>
+                            <span 
+                                id="email-error">
+                            </span>
+                        </div>
+                        <div class="d-flex justify-content-start">
+                            <textarea 
+                                class="form-control mb-2" 
+                                id="textareaContactForm" 
+                                placeholder="Message"
+                                name="comments,&nbsp;questions"
+                                rows="4"
+                                maxlength="100"
+                                onkeyup="validateMessage()"
+                                required></textarea>
+                            <span 
+                                id="message-error">
+                            </span>
+                        </div>
+                        <div>
+                        <button class="btn btn-contact-form mb-2" 
+                            type="submit"
+                            id="send"
+                            >Send</button>
+                        <span 
+                        id="submit-error">
+                        </span>
+                    </div>
+        
+                      </form>
+        
+                
+                    </div>
+            </div>
+            <div class="row justify-content-between align-items-bottom p-4">
+                
+                <div id="Social" class="col-1 col-md-4 col-lg-4 justify-content-end">
+                    <a href="#" ><img src="./Images/HomePage/Footer/Icon awesome-facebook.svg"></a>
+                    <a href="#" ><img src="./Images/HomePage/Footer/Icon awesome-pinterest.svg"></a>
+                    <a href="#" ><img src="./Images/HomePage/Footer/Icon awesome-twitter.svg"></a>
+                    <a href="#" ><img src="./Images/HomePage/Footer/Icon simple-instagram.svg"></a>
+                </div>
+            </div>
+        
+
+        </div>
+
+
+    </main>
+<!--
+
+    This is where the footer starts
+
+-->
+
+<!--END-->
+
+
+    <script src="style/js/bootstrap.js" ></script>
+    <script src="ContactForm.js"></script>
+    <script src="HamMenu.js"></script>
+   
+</body>
+</html>

@@ -254,13 +254,23 @@ h5{
     color:$light-grey;
     font-size: 20px;
     font-weight: bold;
+ //   position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerSuccessContactForm{
+    background-color: $dark-green;
+    color:$light-grey;
+    font-size: 20px;
+    font-weight: bold;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
 
-//Form
+//Contact Form Home-Page
 
 .form-control{
 
@@ -298,6 +308,8 @@ h5{
     text-align: center;
     margin-bottom: 0;
 }
+
+
 
 
 //Links
