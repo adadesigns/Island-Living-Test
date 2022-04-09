@@ -72,18 +72,57 @@
    
     </div>
     </header>
-  <!--
-     This is where the hero image and search bar are placed
- -->
+
  <main>
  
 
 <!--
-    This is going to be the sorting bar
+    This is the sorting bar
 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light m-5">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdownPrice" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
 
 <!--
-    This is going to be the list of cards and a map
+    This is the list of cards and a map
 -->
 
 
@@ -156,68 +195,11 @@
     This is where the footer starts
 
 -->
-<div class="container-fluid footer mt-5 pt-3 pb-3">
-    <div class="row justify-content-between align-items-top m-3">
+<div class="container-fluid footerSmall">
     
-        <div class="col-5">
-            <p>Download the app</p>
-            <div class="row mb-2">
-               
-                <div class="col">
-                    <a href="#">
-                        <img src="./Images/HomePage/Footer/Google Play.svg">
-                    </a>
-                </div>
-         </div>
-         <div class="row">
-                <div class="col">
-                    <a href="#">
-                        <img src="./Images/HomePage/Footer/App Store.svg">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <p>Contact form</p>
-            <form>
-                <input 
-                    class="form-control mb-2" 
-                    type="text" 
-                    placeholder="Name" 
-                    aria-label="Search">
-                <input 
-                    class="form-control mb-2" 
-                    type="email" 
-                    placeholder="Email" 
-                    aria-label="Search">
-                <textarea class="form-control mb-2" 
-                    id="textareaContactForm" 
-                    placeholder="Message">Message...</textarea>
-
-                    <button class="btn btn-contact-form mb-2" 
-                    type="submit">
-                         Send
-                    </button>
-              </form>
-
+   
+    <div class="row justify-content-between align-items-bottom p-3">
         
-        </div>
-    </div>
-    <div class="row justify-content-between align-items-top m-3 pt-4">
-        <div class="col-1 col-md-5 col-lg-5 d-flex justify-content-between align-content-between">
-            <button class="btn btn-contact-form mb-2 " 
-                        type="button">
-                    About us
-                </button>
-            <button class="btn btn-contact-form mb-2" 
-                        type="button">
-                      Contact us 
-            </button>
-            <button class="btn btn-contact-form mb-2" 
-                        type="button">
-                      Site map
-            </button>
-        </div>
         <div id="Social" class="col-1 col-md-4 col-lg-4 justify-content-end">
             <a href="#" ><img src="./Images/HomePage/Footer/Icon awesome-facebook.svg"></a>
             <a href="#" ><img src="./Images/HomePage/Footer/Icon awesome-pinterest.svg"></a>
@@ -230,7 +212,8 @@
 
 
     <script src="style/js/bootstrap.js" ></script>
-    <script src="app.js"></script>
+    <script src="HamMenu.js"></script>
+
    
 </body>
 </html>

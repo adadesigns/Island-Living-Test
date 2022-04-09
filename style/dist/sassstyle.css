@@ -222,6 +222,15 @@ h5 {
   color: #F2F2F2;
   font-size: 20px;
   font-weight: bold;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerSuccessContactForm {
+  background-color: #017373;
+  color: #F2F2F2;
+  font-size: 20px;
+  font-weight: bold;
   position: absolute;
   bottom: 0;
   width: 100%;
